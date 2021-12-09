@@ -13,9 +13,9 @@ var shareDeskBox  = document.querySelector('input#shareDesk');
 
 var pcConfig = {
   'iceServers': [{
-    'urls': 'turn:stun.al.learningrtc.cn:3478',
-    'credential': "mypasswd",
-    'username': "lichao"
+    'urls': 'turn:xmdrty.top:3478',
+    'credential': "123456",
+    'username': "rty"
   }]
 };
 
