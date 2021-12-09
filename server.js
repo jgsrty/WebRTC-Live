@@ -41,8 +41,8 @@ var http_server = http.createServer(app);
 http_server.listen(80, '0.0.0.0');
 
 var options = {
-	key:fs.readFileSync('/etc/nginx/ssl/www.rtyxmd.top.key'),
-	cert:fs.readFileSync('/etc/nginx/ssl/www.rtyxmd.top.pem')
+	key:fs.readFileSync('/ssl/rtyxmd.top.key'),
+	cert:fs.readFileSync('/ssl/rtyxmd.top.pem')
 }
 
 //https server
