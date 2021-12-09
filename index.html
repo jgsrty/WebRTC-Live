@@ -1,27 +1,20 @@
-<html>
-	<head>
-		<title>really peer connection</title>
-		<link rel="stylesheet" href="./css/main.css">
-		<script language="javascript" type="text/javascript">
-			function gotoNextPage(){
-				var roomid = document.querySelector('input#room');
-				if(roomid.value === null || roomid.value === ''){
-					alert('roomid is null');
-				}else {
-					window.location.href="room.html?room="+ roomid.value;
-				}
-			}
-		</script>
-	</head>
-	<body>
-		<table align="center">
-			<tr><td><div>
-					<label>roomid:</label>
-					<input type="input" id="room">
-			</div></td></tr>
-			<tr><td><div>
-						<button id="join" onclick="gotoNextPage()">Join</button>
-			</div></td></tr>
-		</table>
-	</body>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>rty test</title>
+    <script src="./js/rem.js"></script>
+    <script src="./js/index.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+  <body>
+    <div class="home">
+      <div class="room-form">
+        <input placeholder="请输入房间号" type="input" id="roomNumber" />
+        <button onclick="go2Room()" id="roomBtn">加入房间</button>
+      </div>
+    </div>
+  </body>
 </html>

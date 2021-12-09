@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  height: 100%;
+}
+/* room 👇*/
+.room {
+  height: inherit;
+  position: relative;
+}
+#localVideo {
+  width: 100%;
+  height: 100%;
+}
+#remoteVideo {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 2rem;
+  height: 3rem;
+}
+#leave {
+  position: absolute;
+  bottom: .5rem;
+  color: #fff;
+  background: #ab0909;
+  border-radius: 50%;
+  font-size: .40rem;
+  width: 1.2rem;
+  height: 1.2rem;
+  text-align: center;
+  line-height: 1.2rem;
+  opacity: .6;
+  left: 50%;
+  margin-left: -.6rem;
+}
+/* room 👆*/
+
+/* index 👇*/
+.home {
+  height: inherit;
+}
+.room-form {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 1rem;
+}
+#roomNumber {
+  margin-bottom: 0.2rem;
+  text-align: center;
+  font-size: 0.36rem;
+  height: 0.8rem;
+}
+#roomBtn {
+  font-size: 0.4rem;
+  padding: 0.2rem 0;
+}
+/* index 👆*/
